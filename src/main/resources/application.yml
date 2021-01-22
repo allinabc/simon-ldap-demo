@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  ldap:
+    embedded:
+      ldif: classpath:ldap-server.ldif
+      base-dn: dc=xueyao,dc=me

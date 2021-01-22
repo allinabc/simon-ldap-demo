@@ -1,0 +1,18 @@
+dn: dc=xueyao,dc=me
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=xueyao,dc=me
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=flowstone,ou=people,dc=xueyao,dc=me
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: simon
+sn: xueyao
+uid: flowstone
+userPassword: {SHA}nFCebWjxfaLbHHG1Qk5UU4trbvQ=
